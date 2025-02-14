@@ -20,6 +20,10 @@ def about():
 def contact():
     return render_template("contact.html")
 
+@pp.route("/register")
+def contact()
+    return render_template("register.html")
+    
 @app.route("/product")
 def product():
     return render_template("product.html")
